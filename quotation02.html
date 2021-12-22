@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>報價單</title>
+    <link rel="stylesheet" href="homepage01.css">
+    <link rel="stylesheet" href="quotation02.css">
+</head>
+<body>
+    <nav class="navWrap">
+        <div class="bannerLogo">
+            <img src="pic/logo_row.png" alt="">
+        </div>
+        <div class="bannerButtonWrap">
+            <div class="item"><a href="">影像製作</a></div>
+            <div class="item"><a href="">其他服務</a></div>
+            <div class="item"><a href="">部落格</a></div>
+            <div class="item"><a href="">報價單</a></div>
+            <div class="item"><a href="aboutme.html">關於我們</a></div>
+        </div>
+    </nav>
+    <div class="quotationBanner">
+    </div>
+    <nav class="quotationNav">
+        <div class="item"><a href="">影像製作</a></div>
+        <div class="item"><a href="">靜態攝影</a></div>
+        <div class="item"><a href="">平面設計</a></div>
+    </nav>
+    <div class="formBackground">
+        <section class="form">
+            <h2>影像製作報價單</h2>
+            <div class="videoSeviceTypeBox checkBoxStyle">
+                <h3>服務需求(腳本/拍攝/剪輯)</h3>
+                <input type="checkbox" id="videoSeviceType_1">
+                <label for="videoSeviceType_1">腳本與企劃</label>
+                <input type="checkbox" id="videoSeviceType_2">
+                <label for="videoSeviceType_2">拍攝</label>
+                <input type="checkbox" id="videoSeviceType_3" checked>
+                <label for="videoSeviceType_3">剪輯</label>
+            </div>
+            <div class="videoTypeBox checkBoxStyle">
+                <h3>影片類型</h3>
+                <input type="checkbox" id="videoType_1">
+                <label for="videoType_1">訪談影片</label>
+                <input type="checkbox" id="videoType_2" checked>
+                <label for="videoType_2">YouTube影片</label>
+                <input type="checkbox" id="videoType_3">
+                <label for="videoType_3">形象影片</label>
+                <input type="checkbox" id="videoType_4">
+                <label for="videoType_4">商品影片</label>
+                <input type="checkbox" id="videoType_5">
+                <label for="videoType_5">2D動畫</label>
+                <input type="checkbox" id="videoType_6">
+                <label for="videoType_6">其他類別</label>
+            </div>
+            <div class="effectNeedBox checkBoxStyle"> 
+                <h3>特效需求</h3>
+                <input type="checkbox" id="effectNeed_1" checked>
+                <label for="effectNeed_1">綜藝字卡</label>       
+                <input type="checkbox" id="effectNeed_2" checked>
+                <label for="effectNeed_2">音效</label>   
+                <input type="checkbox" id="effectNeed_3">
+                <label for="effectNeed_3">特殊調色</label>
+                <input type="checkbox" id="effectNeed_4">
+                <label for="effectNeed_4">動畫特效</label>       
+            </div>
+            <div class="videoTimeBox commonBoxStyle">
+                <label for="videoTime"><h3>影片長度(剪輯後)</h3></label>
+                <input type="number" id="videoTime" placeholder="分鐘">
+            </div>
+            <div class="titleNeedBox radioBoxStyle">
+                <h3> 片頭與片尾製作</h3>
+                <label>
+                    <input type="radio" name="titleNeed" id="titleNeed" checked />
+                    <span>需要</span>
+                </label>
+                <label>
+                    <input type="radio" name="titleNeed" id="titleNeed"  />
+                    <span>不需要</span>
+                </label>
+            </div>
+            <div class="coverNeedBox radioBoxStyle">
+                <h3>封面照片製作</h3>
+                <label>
+                    <input type="radio" name="coverNeed" id="coverNeed" checked />
+                    <span>需要</span>
+                </label>
+                <label>
+                    <input type="radio" name="coverNeed" id="coverNeed"  />
+                    <span>不需要</span>
+                </label>
+            </div>
+            <div class="radioBoxStyle">
+                <h3>背景音樂提供</h3>
+                <label>
+                    <input type="radio" name="BGMNeed" id="BGMNeed" checked />
+                    <span>需要</span>
+                </label>
+                <label>
+                    <input type="radio" name="BGMNeed" id="BGMNeed" />
+                    <span>不需要</span>
+                </label>
+            </div>
+            <div class="radioBoxStyle">
+                <h3>上字幕</h3>
+                <label>
+                    <input type="radio" name="captionNeed" id="captionNeed" checked />
+                    <span>需要(無逐字稿)</span>
+                </label>
+                <label>
+                    <input type="radio" name="captionNeed" id="captionNeed" />
+                    <span>需要(有逐字稿)</span>
+                </label>
+                <label>
+                    <input type="radio" name="captionNeed" id="captionNeed" />
+                    <span>不需要</span>
+                </label>
+            </div>
+            <div class="commonBoxStyle">
+                <label for="clientReference" >
+                    <h3>參考影片</h3>
+                </label>
+                <input type="url" id="clientReference" placeholder="請輸入網址">
+            </div>
+            <div class="commonBoxStyle">
+                <label for="clientNeed">
+                    <h3>其他想法與需求</h3>
+                </label>
+                <textarea id="clientNeed" cols="70" rows="10"></textarea>
+            </div>
+            <div class="contactInfo">
+                <h3>聯絡資料</h3>
+                <div class="commonBoxStyle contactBox">
+                    <!-- <label for="clientName"></label> -->
+                    <input type="text" id="clientName" placeholder="姓名">
+                    <!-- <label for="phoneNumber"></label> -->
+                    <input type="tel" id="phoneNumber" placeholder="連絡電話">
+                    <!-- <label for="email"></label> -->
+                    <input class="contactEmail"type="email" id="email" placeholder="連絡信箱">
+                </div>
+            </div>
+            <!-- <div class="commonBoxStyle">
+                <label for="clientName"><h3>姓名</h3></label>
+                <input type="text" id="clientName">
+            </div>
+            <div class="commonBoxStyle">
+                <label for="phoneNumber"><h3>連絡電話</h3></label>
+                <input type="tel" id="phoneNumber">
+            </div>
+            <div class="commonBoxStyle">
+                <label for="email"><h3>連絡信箱</h3></label>
+                <input type="email" id="email">
+            </div> -->
+            <div class="formButton">
+                <a href="" class="submitButton">送出</a>
+                <a href="" class="resetButton">重設</a>
+            </div>
+        </section>
+    </div>
+
+</body>
+<footer class="footerBackground">
+    <div class="footer">
+        <div class="footerColumn">
+            <h2>服務</h2>
+            <ul>
+                <li><a href="">影像製作</a></li>
+                <li><a href="">攝影</a></li>
+                <li><a href="">平面設計</a></li>
+                <li><a href="">報價單</a></li>
+            </ul>
+        </div>
+        <div class="footerColumn">
+            <h2>關於達浪</h2>
+            <ul>            
+                <li><a href="">關於我們</a></li>
+                <li><a href="">聯絡我們</a></li>
+            </ul>
+        </div>
+        <div class="footewrSocialMedia">
+            <h2>關注達浪</h2>
+            <a href="https://www.facebook.com/search/top?q=%E9%81%94%E6%B5%AA%E5%BD%B1%E5%83%8F%E5%B7%A5%E4%BD%9C%E5%AE%A4"> 
+            <img src="pic/fb.png" alt=""></a>          
+            <img src="pic/ig.png" alt="">
+            <img src="pic/yt.png" alt="">
+        </div>
+        <div class="footerLogo">
+            <img src="pic/logo_column-02.png" alt="">
+        </div>
+    </div>
+    <div class="copyRight">
+        Copyright © 2020 WaterWaveVideo 達浪影像
+    </div>
+</footer>
+</html>

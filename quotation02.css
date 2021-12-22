@@ -1,0 +1,243 @@
+.bannerButtonWrap .item:nth-child(4) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: #183265; 
+    /* background-color: burlywood */
+}
+.quotationBanner{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-image: url("pic/homePageBlog3.jpg");
+    /* background-color: rgb(248, 174, 78); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -420px;
+}
+.quotationNav{
+    display: flex;
+    justify-content: center;
+}
+.quotationNav .item{
+    width: 120px;
+    box-sizing: border-box;
+    padding: 30px 10px;
+    font-size: 20px;
+}
+
+.form{
+    margin: auto;
+    width: 800px;
+    /* background-color: rgb(0, 98, 132); */
+    /* background-color: rgb(216, 216, 216); */
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #183265; 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.form h2{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid slategray;
+}
+.form h3{
+    display: inline-block;
+    width: 25%;
+    font-size: 16px;
+    /* background-color: brown; */
+}
+.form input,
+select,
+textarea{
+    border: 1px solid slategray;
+    border-radius: 5px;
+}
+.form div{
+    margin-bottom: 10px;
+}
+
+
+.checkBoxStyle{
+    font-size: 14px;
+    display: inline;
+    vertical-align: middle;
+}
+.checkBoxStyle label{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #adadad;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    user-select: none;
+    transition: all .2s;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.checkBoxStyle  input[type="checkbox"]:checked + label{
+    /* border: 2px solid #1bdbf8; */
+    background-color: #183265; 
+    color: #fff;
+    transition: all .2s;
+}
+
+.checkBoxStyle  input[type="checkbox"]:hover + label{
+    border: 2px solid #183265; 
+    /* background-color: #183265; 
+    color: #fff; */
+}
+
+.checkBoxStyle input[type="checkbox"]{
+    position: absolute;
+    opacity: 0;
+}
+
+.radioBoxStyle{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.radioBoxStyle label {
+    display: inline-block;
+    cursor: pointer;
+    /* position: relative; */
+    overflow: hidden;
+    /* margin-bottom: 10px; */
+}
+.radioBoxStyle label input {
+    position: absolute;
+    left: -9999px;
+}
+
+.radioBoxStyle label input:checked+span{
+    background-color: #adbfce;
+    /* border: 2px solid #1bdbf8; */
+}
+
+.radioBoxStyle label input:checked+span:before{
+    box-shadow: inset 0 0 0 8px #183265;
+}
+
+.radioBoxStyle label span {
+    display: flex;
+    align-items: center;
+    padding:  8px 12px;
+    border-radius: 25px;
+    transition: 0.25s ease;
+}
+
+.radioBoxStyle label span:hover {
+    background-color: #adbfce
+}
+
+.radioBoxStyle label span:before{
+    display: flex;
+    flex-shrink: 0;
+    content: "";
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: 0.25s ease;
+    box-shadow: inset 0 0 0 2px #183265;
+}
+
+.commonBoxStyle input{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #adadad;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    user-select: none;
+    transition: all .2s;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.commonBoxStyle textarea{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #adadad;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    user-select: none;
+    transition: all .2s;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.commonBoxStyle{
+    display: flex;
+    align-items: center;
+}
+.commonBoxStyle label{
+    width: 25%;
+}
+.commonBoxStyle h3{
+    width: 100%;
+}
+.radioContainer{
+    display: flex;
+}
+.radioContainer .radioBoxStyle{
+    width: 50%;
+}
+.radioContainer .radioBoxStyle h3{
+    width: 50%;
+}
+.formBackground{
+    width: 100%;
+    background-color: rgb(179, 203, 223);
+}
+.formButton{
+    display: flex;
+    justify-content: flex-end;
+}
+.submitButton,
+.resetButton{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #adadad;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    user-select: none;
+    transition: all .2s;
+    padding: 8px 22px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.submitButton:hover,
+.resetButton:hover {
+	/* border: 2px solid #183265;  */
+    background-color: #183265;
+    color: white;
+}
+.submitButton:active,
+.resetButton:active {
+	position:relative;
+	top:1px;
+    background-color: #183265;
+    color: white;
+}
+.contactBox{
+    display: flex;
+    justify-content: flex-start;
+}
+.contactBox input{
+    margin-right: 15px;
+}
+.contactEmail{
+    flex-grow: 1;
+}
