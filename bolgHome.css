@@ -1,0 +1,113 @@
+.bannerButtonWrap .item:nth-child(5) a,
+.bannerButtonWrap .item:nth-child(6) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: rgb(114, 113, 113);
+    /* background-color: burlywood */
+}
+.bannerButtonWrap .item:nth-child(4) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: #183265; 
+    /* background-color: burlywood */
+}
+.blogPageContainer{
+    width: 1200px;
+    margin: auto;
+    /* background-color: burlywood; */
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blogPageContainer .contentBoxWrap{
+    width:70%;
+
+}
+
+.everyArticleWrap{
+    width: 30%;
+    /* background-color: chartreuse; */
+}
+.everyArticle{
+    position: sticky;
+    width: 100%;
+    /* background-color: crimson; */
+    border: 1px solid rgb(5, 14, 90);
+    border-radius: 10px;
+    top: 30px;
+    right: 0;
+    box-sizing: border-box;
+    padding:20px;
+}
+.everyArticle .searchBox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+.everyArticle .searchBox input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: rgb(161, 161, 161) 2px solid;
+    border-radius: 10px;
+}
+.everyArticle .searchBox label{
+    width: 100%;
+}
+.everyArticle .eTitle{
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+
+.blogPageContainer .contentBox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: cornflowerblue; */
+    justify-content: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+    /* border-bottom: 1px solid grey; */
+}
+.blogPageContainer h2,
+.blogPageContainer h3{
+    width: 100%;
+}
+.contentBoxWrap img{
+    width: 100%;
+}
+
+.contentBox p{
+    width: 100%;
+}
+.contentBox .moreBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color:#a8a8a8;
+    height: 1px;
+  }
+
+.nextPage{
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 20px 50px;
+}
+.nextPage a{
+    text-decoration-line: none;
+}

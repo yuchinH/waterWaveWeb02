@@ -4,6 +4,10 @@ body{
     padding: 0;
     /* background-color: blanchedalmond; */
 }
+a{
+    text-decoration: none;
+    color:white;
+}
 
 .navWrap{
     margin: auto;
@@ -346,6 +350,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+    align-items: flex-end;
 }
 .designContainer{
     width: 480px;
@@ -357,6 +362,7 @@ body{
     height: 350px;
     /* background-color: darkgoldenrod; */
     display: flex;
+    align-items: flex-end;
     flex-wrap: wrap;
 }
 .designItem{
@@ -368,7 +374,7 @@ body{
 .rowFatFrame{
     width: 300px;
     position: absolute;
-    bottom: 30px;
+    top: 30px;
     right: 230px;
 }
 .rowFatFrame img{

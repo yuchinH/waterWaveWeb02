@@ -1,0 +1,114 @@
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 30px;
+    box-sizing: border-box;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+    display: flex;
+}
+.grid figure {
+	position: relative;
+	/* float: left; */
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 320px;
+	max-width: 480px;
+	max-height: 360px;
+	width: 48%;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+    color: black;
+}
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	/* opacity: 0.8; */
+}
+
+/* .grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+} */
+
+.grid figure figcaption {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+    background-color: wheat;
+    color: rgb(255, 5, 5);
+}
+
+/* .grid figure  > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 1;
+} */
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+
+figure.effect-layla {
+	background: #000000;
+}
+figure.effect-layla figcaption {
+	padding: 20px;
+    box-sizing: border-box;
+}
+figure.effect-layla figcaption::before,
+figure.effect-layla figcaption::after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+    padding: 20%;
+    width: 90%;
+    background-color: yellowgreen;
+	opacity: 1;
+}
+/* figure.effect-layla figcaption::before {
+	left: -20px;
+    top: 20px;
+    right: 20px;
+	bottom: 40px;
+	border-top: 3px solid rgb(255, 255, 255);
+    border-right: 3px solid rgb(255, 255, 255);
+	
+	/* -webkit-transform: scale(0,1); */
+	transform: scale(0,1);
+	/* -webkit-transform-origin: 0 0; */
+	transform-origin: 0 0;
+}
+figure.effect-layla figcaption::after {
+	left: -250px;
+    top: 230px;
+    right: 250px;
+	bottom: -150px;
+	border-bottom: 3px solid rgb(255, 255, 255);
+	border-left: 3px solid rgb(255, 255, 255);
+	/* -webkit-transform: scale(1,0); */
+	transform: scale(1,0);
+	/* -webkit-transform-origin: 100% 0; */
+	transform-origin: 100% 0;
+} */
+figure.effect-layla:hover figcaption::before,
+figure.effect-layla:hover figcaption::after {
+	opacity: 1;
+	/* -webkit-transform: scale(1); */
+	transform: scale(1);
+}
+
+.grid .text{
+    position: absolute;
+    color: white;
+}

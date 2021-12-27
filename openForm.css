@@ -1,0 +1,32 @@
+.qaBox label {
+    display:inline-block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.qaBox label:hover{
+    cursor: pointer;
+}
+.qaBox input[type=checkbox]:checked + div {
+    opacity:0;
+    max-height:0;
+}
+.qaBox .toggle-box {
+    display: inline-block;
+    opacity:1;
+    overflow:hidden;
+    width: 100%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.qaBox input{
+    display: none;
+}
+.qaBox{
+    margin: auto;
+    width: 1200px;
+    border: 1px solid rgb(18, 0, 122);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}

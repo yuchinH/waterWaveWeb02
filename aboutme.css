@@ -1,3 +1,17 @@
+.bannerButtonWrap .item:nth-child(5) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: rgb(114, 113, 113);
+    /* background-color: burlywood */
+}
+.bannerButtonWrap .item:nth-child(6) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: #183265; 
+    /* background-color: burlywood */
+}
 .aboutMeBanner{
     position: relative;
 }
@@ -21,7 +35,7 @@
     overflow: hidden;
     display: table-cell;
     vertical-align: middle;
-    background-color: burlywood;
+    background-color: rgb(8, 0, 85);
 }
 .aboutMeBanner .pic img{
     width: 100%;
@@ -29,17 +43,34 @@
     display: block;
     margin: auto;
 }
-.bannerButtonWrap .item:nth-child(4) a{
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 550;
-    color: rgb(114, 113, 113);
-    /* background-color: burlywood */
+.aboutIntroWrap{
+    margin: auto;
+    width: 1200px;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
-.bannerButtonWrap .item:nth-child(5) a{
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 550;
-    color: #183265; 
-    /* background-color: burlywood */
+.aboutIntroWrap .pic{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutIntroWrap img{
+    width: 66%;
+}
+.aboutIntroWrap .txt{
+    width: 50%;
+}
+.qaboxWrap{
+    margin: auto;
+    width: 1200px;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px 0px;
+}
+.qaboxWrap h2{
+    width: 100%;
+    text-align: center;
 }

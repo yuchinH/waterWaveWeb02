@@ -1,0 +1,106 @@
+.bannerButtonWrap .item:nth-child(4) a,
+.bannerButtonWrap .item:nth-child(5) a,
+.bannerButtonWrap .item:nth-child(6) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: rgb(114, 113, 113);
+    /* background-color: burlywood */
+}
+.bannerButtonWrap .item:nth-child(2) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: #183265; 
+    /* background-color: burlywood */
+}
+
+.photoPageIntro{
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    /* background-color: darkcyan;   */
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+}
+.photoPageIntro .photoColumn{
+    width: 50%;
+}
+.photoPageIntro img{
+    width: 100%;
+}
+.photoPageIntro .photoText{
+    box-sizing: border-box;
+    padding: 0 50px;
+    width: 50%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.photoPageIntro .photoText h2{
+    width: 100%;
+    margin: 0;
+}
+
+.photoPageContainer{
+    margin: auto;
+    margin-top: 30px;
+    width: 1200px;
+    /* background-color: burlywood;    */
+}
+.photoPageContainer .pRow{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0px 0px 20px 0px;
+    /* background-color: cadetblue; */
+    overflow: hidden;
+    justify-content: space-between;
+}
+.pRow img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.pColumn-2{
+    width: 49%;
+    box-sizing: border-box;
+    background-color: coral;
+    
+}
+.pColumn-1{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: coral;
+}
+.pColumn-3-a{
+    width: 30.1%;
+    box-sizing: border-box;
+    background-color: coral;
+}
+.pColumn-3r-a{
+    width: 67.66%;
+    box-sizing: border-box;
+    background-color: coral;
+}
+.pColumn-2-b{
+    width: 40%;
+    box-sizing: border-box;
+    background-color: coral;
+}
+.pColumn-2-br{
+    width: 58%;
+    box-sizing: border-box;
+    background-color: coral;
+}
+.pColumn-2-b .pContain{
+    width: 128%;
+}
+.pRow .pColumn-2-b{
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+}
+.formBackground{
+    margin-top:40px;
+}

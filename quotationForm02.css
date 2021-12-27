@@ -1,4 +1,5 @@
-.bannerButtonWrap .item:nth-child(4) a{
+
+.bannerButtonWrap .item:nth-child(5) a{
     text-decoration: none;
     font-size: 15px;
     font-weight: 550;
@@ -10,12 +11,11 @@
     height: 400px;
     overflow: hidden;
     background-image: url("pic/homePageBlog3.jpg");
-    background-color: rgb(248, 174, 78);
+    /* background-color: rgb(248, 174, 78); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 -420px;
 }
-
 .quotationNav{
     display: flex;
     justify-content: center;
@@ -30,15 +30,17 @@
 .form{
     margin: auto;
     width: 800px;
+    margin-top: 60px;
     /* background-color: rgb(0, 98, 132); */
-    /* background-color: rgb(216, 216, 216); */
+    /* background-color: rgb(218, 6, 6); */
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 20px;
+    /* padding: 20px; */
     color: #183265; 
     display: flex;
     flex-direction: column;
     justify-content: start;
+    flex-wrap: wrap;
 }
 .form h2{
     text-align: center;
@@ -64,9 +66,10 @@ textarea{
 
 
 .checkBoxStyle{
-    font-size: 13px;
+    font-size: 14px;
     display: inline;
     vertical-align: middle;
+    /* background-color: aqua; */
 }
 .checkBoxStyle label{
     display: inline-block;
@@ -103,6 +106,7 @@ textarea{
     display: flex;
     align-items: center;
     font-size: 14px;
+    width: 100%;
 }
 .radioBoxStyle label {
     display: inline-block;
@@ -135,7 +139,6 @@ textarea{
 
 .radioBoxStyle label span:hover {
     background-color: #adbfce
-    
 }
 
 .radioBoxStyle label span:before{
@@ -180,6 +183,7 @@ textarea{
 .commonBoxStyle{
     display: flex;
     align-items: center;
+    /* background-color: brown; */
 }
 .commonBoxStyle label{
     width: 25%;
@@ -198,5 +202,48 @@ textarea{
 }
 .formBackground{
     width: 100%;
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(179, 203, 223);
+}
+.formButton{
+    display: flex;
+    justify-content: flex-end;
+}
+.submitButton,
+.resetButton{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #adadad;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    user-select: none;
+    transition: all .2s;
+    padding: 8px 22px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.submitButton:hover,
+.resetButton:hover {
+	/* border: 2px solid #183265;  */
+    background-color: #183265;
+    color: white;
+}
+.submitButton:active,
+.resetButton:active {
+	position:relative;
+	top:1px;
+    background-color: #183265;
+    color: white;
+}
+.contactBox{
+    display: flex;
+    justify-content: flex-start;
+}
+.contactBox input{
+    margin-right: 15px;
+}
+.contactEmail{
+    flex-grow: 1;
 }

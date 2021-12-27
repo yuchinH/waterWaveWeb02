@@ -1,0 +1,60 @@
+.bannerButtonWrap .item:nth-child(2) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: rgb(114, 113, 113);
+    /* background-color: burlywood */
+}
+.bannerButtonWrap .item:nth-child(3) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: #183265; 
+    /* background-color: burlywood */
+}
+.designPageContainer{
+    margin: auto;
+    width: 1200px;
+    /* background-color: burlywood; */
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.designPageContainer .dRow{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0px 0px 20px 0px;
+    /* background-color: cadetblue; */
+    overflow: hidden;
+    justify-content: space-between;
+}
+.dRow img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.dColumn-4{
+    width: 24%;
+    box-sizing: border-box;
+    background-color: rgb(87, 19, 197);
+} 
+.dColumn-2a{
+    width: 63.5%;
+    box-sizing: border-box;
+    background-color: rgb(87, 19, 197);
+}
+.dColumn-2ar{
+    width: 34.6%;
+    box-sizing: border-box;
+    background-color: rgb(87, 19, 197);
+}
+.dColumn-3a{
+    width: 21.5%;
+    box-sizing: border-box;
+    background-color: rgb(87, 19, 197);
+}
+.dColumn-3ar{
+    width: 54.2%;
+    box-sizing: border-box;
+    background-color: rgb(87, 19, 197);
+}

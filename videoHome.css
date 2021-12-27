@@ -1,4 +1,102 @@
-body{
+.bannerButtonWrap .item:nth-child(2) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: rgb(114, 113, 113);
+    /* background-color: burlywood */
+}
+.bannerButtonWrap .item:nth-child(5) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: rgb(114, 113, 113);
+    /* background-color: burlywood */
+}
+.bannerButtonWrap .item:nth-child(6) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: rgb(114, 113, 113);
+    /* background-color: burlywood */
+}
+.bannerButtonWrap .item:nth-child(1) a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: #183265; 
+    /* background-color: burlywood */
+}
+.videoPageContain{
+    width: 1200px;
+    margin: auto;
+    /* background-color: darkcyan; */
+}
+.videoPageItem{
+    width: 100%;
+    vertical-align: top;
+}
+.videoPageIntro{
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    /* background-color: darkcyan;   */
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+}
+.videoPageIntro .videoColumn{
+    width: 50%;
+}
+.videoPageIntro .videoText{
+    box-sizing: border-box;
+    padding: 0 50px;
+    width: 50%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.videoPageIntro .videoText h2{
+    width: 100%;
     margin: 0;
-    padding: 0;
+}
+
+.videoPageWrap{
+    margin: auto;
+    width: 1200px;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.videoPageWrap .videoItemBox{
+    background-color: chartreuse;
+    width: 32%;
+    position: relative;
+}
+.videoPageWrap .videoItemBox .videoPageBoxItem{
+    width: 100%;
+    vertical-align: bottom;
+    cursor: pointer;
+    position: relative;
+   
+
+}
+.videoPageWrap .videoItemBox .hovercap{
+    position: absolute;
+    color: rgb(137, 197, 253);
+    width: 100%;
+    height: 0%;
+    background-color: rgb(0, 0, 0);
+    bottom: 0;
+    opacity: 0;
+    transition: all .5s ease 0s;
+    pointer-events:none;
+    display: flex;
+    
+    justify-content: center;
+}
+.videoPageBoxItem:hover~.hovercap{
+    opacity: 0.6;
+    height: 100%;
+    align-items: center;
 }
